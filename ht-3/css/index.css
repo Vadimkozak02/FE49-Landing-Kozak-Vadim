@@ -1,5 +1,6 @@
 @import url("./cdn.css");
 @import url("./awesome.css");
+@import url("./pricing.css");
 
 * {
     margin: 0;
@@ -15,7 +16,7 @@ html {
 }
 
 .container {
-    width: 1170px;
+    max-width: 1170px;
     padding: 0 15px;
     margin: auto;
 }
@@ -26,7 +27,13 @@ html {
     font-size: 36px;
     line-height: 42px;
     max-width: 670px;
-    margin: auto;
+    margin: 0 auto 34px;
     text-align: center;
     text-transform: uppercase;
+}
+
+.line {
+    margin: 0 auto 34px;
+    width: 64px;
+    border: 1px solid #E72424;
 }
