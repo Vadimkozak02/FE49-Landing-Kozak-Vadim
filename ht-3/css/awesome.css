@@ -2,13 +2,15 @@
     padding: 80px 0 116px;
     background: #FFFFFF;
 }
+.awesome-description {
+    width: 365px;
+    margin: 0 auto 68px;
+}
 .awesome-description p {
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     text-align: center;
-    width: 365px;
-    margin: 0 auto 68px;
     color: #86878B;
 }
 .awesome-wrap {
@@ -45,4 +47,10 @@
     font-size: 14px;
     line-height: 19px;
     text-align: center;
+}
+.awesome-card__description p {
+    margin-bottom: 10px;
+}
+.awesome-card__description p:last-child{
+    margin-bottom: 0;
 }

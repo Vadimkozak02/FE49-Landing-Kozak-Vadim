@@ -63,5 +63,7 @@
     color: #86878B;
     background: #FFFFFF;
     margin-bottom: 4px;
-    color: #86878B;
 }
+.pricing-card__space:last-child {
+    margin-bottom: 0;
+} 
