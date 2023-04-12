@@ -1,0 +1,51 @@
+.header {
+    background: #000000;
+    padding: 20px 0 20px;
+}
+.header-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+.header-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    /* margin: 20px 0 20px; */
+}
+.header-logo::after {
+    content: 'IT';
+    display: inline-block;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #EC7979;
+}
+/* .header-navigation {
+    margin: 25px 0 25px;
+} */
+.navigation-list {
+    width: 489px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+.navigation-item a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    transition: .3s;
+}
+.navigation-item a:hover {
+    color: #fff;
+}
