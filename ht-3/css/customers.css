@@ -20,10 +20,13 @@
     margin: 0 -15px;
 }
 .customers-card {
+    display: flex;
+    flex-direction: column;
     width: 298px;
     margin: 0 15px;
 }
 .customers-card__description {
+    flex-grow: 10;
     background: #E2E2E2;
     border-radius: 7px;
     margin-bottom: 22px;

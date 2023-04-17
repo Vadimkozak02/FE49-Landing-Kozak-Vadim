@@ -44,8 +44,13 @@
     font-size: 15px;
     line-height: 20px;
     color: rgba(255, 255, 255, 0.7);
+    border: none;
+    text-decoration: none;
     transition: .3s;
 }
 .navigation-item a:hover {
     color: #fff;
+    border-bottom: 1px solid #FFFFFF;
+    /* transition: .3s; */
+    /* text-decoration: underline; */
 }

@@ -55,13 +55,6 @@
     text-align: center;
     color: rgba(255, 255, 255, 0.8);
 }
-/* .design-link {
-    width: 135px;
-    margin: auto;
-    border: 1px solid #fff;
-    padding: 11px 26px;
-    display: block;
-} */
 .link {
     display: block;
     width: 135px;
@@ -76,5 +69,6 @@
     transition: .2s;
 }
 .link:hover {
-    background: rgba(51, 51, 51, 0.5);
+    color: #EC7979;
+    border: 1px solid #EC7979;
 }
