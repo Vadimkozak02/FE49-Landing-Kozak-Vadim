@@ -65,7 +65,7 @@
     color:rgb(172, 27, 27);
 }
 .fa-stumbleupon-circle:hover {
-    transform: translateY(-15px);
+    transform: translateX(10px);
     color: rgb(204, 67, 17);
 }
 .fa-wifi:hover {
